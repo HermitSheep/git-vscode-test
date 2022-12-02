@@ -16,7 +16,7 @@ INCLUDE_DIRS := include
 INCLUDES = $(addprefix -I, $(INCLUDE_DIRS))
 
 # find all source files
-SOURCES  := #$(wildcard */*.c)
+SOURCES  := $(wildcard */*.c)
 
 # find all header files
 HEADERS  := $(wildcard */*.h)
